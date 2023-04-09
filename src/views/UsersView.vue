@@ -13,8 +13,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const users = ref([{ name: "Elikson Tavares", email: "Elikson.tavares@aquaapia.cpom.br", telephone: 992488234, profile: "Desenvolvedor", status: "Ativo" },
-{ name: "Bruno Alencar", email: "Bruno.alencar@aquaapia.cpom.br", telephone: 984321198, profile: "Adminstrador", status: "Ativo"}])
+const users = ref([
+    { name: "Elikson Tavares", email: "Ribamar.tavares@email.com.br", profile: "Desenvolvedor", status: "Ativo" },
+    { name: "Guilherme Souza", email: "Guilherme.souza@email.com.br", profile: "Desenvolvedor", status: "Ativo" },
+    { name: "Vinicios Guimarães", email: "Vinicios.guimaraes@email.com.br", profile: "Desenvolvedor", status: "Ativo" },
+{ name: "Bruno Alencar", email: "Julio.alencar@email.com.br", profile: "Adminstrador", status: "Ativo"}])
 
 </script>
 
